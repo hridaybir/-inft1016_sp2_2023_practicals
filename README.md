@@ -106,7 +106,7 @@ An [Kismet](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg) t
  
 
 | Number |    Color   |  Size  |
-| ------:|:---------- |:------:|
+|:------:|:---------- |:------:|
 |   1    |   Red      |   S    |
 |   2    |   Blue     |   M    |
 |   3    |   Green    |   L    |
