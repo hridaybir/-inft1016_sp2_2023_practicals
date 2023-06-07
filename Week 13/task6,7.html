@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Week 13</title>
+
+    <script>
+        counter = 0;
+
+        function countClicks(element) {
+            counter = counter + 1;
+            var output = 'The link was pressed ' + counter + ' times.';
+            element.innerHTML = output;
+        }
+    </script>
+
+</head>
+<body>
+    <h1>JavaScript Demo</h1>
+    <a href="#" onclick="countClicks(this);">Click me</a>
+    <p id="boxy"></p>
+
+    <img src="http://www.outgrabe.net/cat01.jpg" onmouseover="this.src='http://www.outgrabe.net/cat02.jpg'" onmouseout="this.src='http://www.outgrabe.net/cat01.jpg'" />
+</body>
+</html>
+
+<!-- HTML COMMENT - The week 11 HTML code represents a webpage using different github options -->
+
+
+<script>
+    // This JavaScript code creates a simple demo that counts the number of times a link is clicked and displays the count on the webpage.
+    //The image tag in the HTML has a "onmouseover" event that changes the source (src) of the image when the mouse is over the image.
+</script>
